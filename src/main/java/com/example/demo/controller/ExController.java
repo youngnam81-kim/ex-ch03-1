@@ -21,11 +21,11 @@ public class ExController {
 //	}
 
 //	http://localhost:8080
-	@GetMapping("/")
-	public String getMethodName() {
-//		return "안녕 좋은날";
-		return exService.sayHello("안녕");
-	}
+//	@GetMapping("/")
+//	public String getMethodName() {
+////		return "안녕 좋은날";
+//		return exService.sayHello("안녕");
+//	}
 
 //	http://localhost:8080/exInt
 	@GetMapping("/exInt")
