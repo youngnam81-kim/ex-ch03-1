@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.skc.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,9 +1,9 @@
-package com.example.demo.controller;
+package com.skc.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.service.ExService;
+import com.skc.service.ExService;
 
 @RestController
 public class ExController {

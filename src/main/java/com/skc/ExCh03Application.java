@@ -1,11 +1,14 @@
-package com.example.demo;
+package com.skc;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
+
+//@ComponentScan(basePackages = { "com.skc.demo", "com.skc.mybatis", "com.skc.ex_thymleaf" })
+//@MapperScan("com.skc.mybatis")
 @SpringBootApplication
-@ComponentScan(basePackages = { "com.skc.ex_thymleaf", "com.example.demo", "com.skc"})
 public class ExCh03Application {
 
 	public static void main(String[] args) {
