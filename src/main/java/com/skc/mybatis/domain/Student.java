@@ -11,7 +11,9 @@ public class Student {
 	private String name;
 	private String email;
 	private Integer age;
-	private LocalDateTime created_at;
-	private LocalDateTime updated_at;
+	private LocalDateTime createdAt;
+	private LocalDateTime updatedAt;
+//	private LocalDateTime created_at;
+//	private LocalDateTime updated_at;
 
 }
